@@ -88,3 +88,13 @@
 .ex-2-square:active {
   width: 1100px;
 }
+
+/* esercizio 3 */
+
+.ex-3-square {
+  transition: border-radius 0.4s;
+}
+
+.ex-3-square:hover {
+  border-radius: 50% 50%;
+}
