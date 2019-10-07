@@ -127,3 +127,7 @@
   height: 40px;
   margin: 30px;
 }
+
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
