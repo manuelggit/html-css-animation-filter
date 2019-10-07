@@ -68,7 +68,7 @@
     height: 20px;
 }
 
-/* ESERCIZIO 1 */
+/* esercizio 1 */
 
 .ex-1-square {
   background: none;
@@ -77,4 +77,14 @@
 
 .ex-1-square:hover {
   background: red;
+}
+
+/* esercizio 2 */
+
+.ex-2-square {
+  transition: width 2s;
+}
+
+.ex-2-square:active {
+  width: 1100px;
 }
