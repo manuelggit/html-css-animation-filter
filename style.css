@@ -143,3 +143,14 @@
 .ex-7-img:hover {
   filter: grayscale(1) sepia(0.5);
 }
+
+/* esercizio 8 */
+
+.ex-8-img {
+  transition: all 2s;
+}
+
+.ex-8-img:hover {
+  filter: saturate(0.5) sepia(1);
+  border-radius: 10% 10%;
+}
