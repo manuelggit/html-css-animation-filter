@@ -184,5 +184,18 @@
     transform: rotate(-360deg);
   }
 
+}
 
+/* esecizio 11 */
+
+@keyframes ruota {
+
+  from{transform: rotate(0);}
+  to {transform: rotate(300deg);}
+}
+
+.ex-11-icon:hover {
+  animation-name: ruota;
+  transform: rotate(300deg);
+  animation-duration: 3s;
 }
