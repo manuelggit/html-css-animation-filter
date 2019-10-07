@@ -154,3 +154,16 @@
   filter: saturate(0.5) sepia(1);
   border-radius: 10% 10%;
 }
+
+/* esercizio 9 */
+
+.ex-9-img {
+  transition: all 2s;
+}
+
+.ex-9-img:hover {
+  filter: brightness(0.5) sepia(0.5);
+  border-radius: 10% 10%;
+  width: 580px;
+  margin: 0;
+}
